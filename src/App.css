@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* css font default style------------------------------  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*,::after::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f9fbfc;
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,97 @@
+
+/* menubar  */
+
+.menuBackground{
+    background: linear-gradient(360deg, rgba(52, 39, 85, 0.59) 0%, #231741 100%), #231741;
+mix-blend-mode: normal;
+padding: 20px;
+color: antiquewhite;
+}
+
+.style{
+    color: rgb(247, 247, 247) !important;
+    background-color:green !important;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+/* home  */
+.home_bg{
+    min-width: calc(100vh - 72px);
+    background-image: url('../image/home_bg.png');
+    /* banner img hoinai  */
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+}
+
+
+.margin_top{
+    margin-top: 103px;
+}
+
+
+/* ===============
+Meet area
+======================== */
+
+.compani_banner{
+    background: url('../image/compani_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+.compani_banner h1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+.compani_banner h2{
+    padding: 30px 0;
+}
+
+
+.compani_banner p > i {
+    margin: 0 10px;
+}
+
+
+.banner{
+    background: url('../image/meetBanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 336px;
+}
+
+.banner> h2 {
+    padding-top: 148px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.demo_btn{
+    width: 224px;
+height: 52px;
+left: 528px;
+top: 191px;
+background: #FF3D6B;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.14);
+border-radius: 4px;
+margin-top: 10px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+margin: 0px 10px;
+}
